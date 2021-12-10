@@ -5,6 +5,8 @@
      D system          PR            10I 0 extproc('system')
      D cmd1                            *   VALUE Options(*string: *trim)
 
+      // Playing with this code on Visual Studio
+
       /free
        cmd = 'CALL DSPLYMSG';
        RTNVAL = system(cmd);
